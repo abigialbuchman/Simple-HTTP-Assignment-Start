@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "15.1.0",
+    "npm": "7.4.3"
+  },
+  "description": "simple http project week two",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Abigail Buchman",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
